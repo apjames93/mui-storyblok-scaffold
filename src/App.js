@@ -4,7 +4,7 @@ import MuiStoryblok from 'mui-storyblok/dist/index.mjs';
 const Pages = () => (
   <MuiStoryblok
     theme={{}}
-    accessToken=""
+    accessToken={process.env.REACT_APP_STORYBLOK_ACCESS_TOKEN}
     version="draft"
   />
 );
