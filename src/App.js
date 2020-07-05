@@ -1,5 +1,5 @@
 import React from 'react';
-import MuiStoryblok from 'mui-storyblok/dist/index.mjs';
+import MuiStoryblok from 'mui-storyblok';
 
 const Pages = () => (
   <MuiStoryblok

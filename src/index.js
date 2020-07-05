@@ -9,6 +9,9 @@ ReactDOM.render(
             <Route path="/" exact>
               <App />
             </Route>
+            <Route path="/page**" exact>
+              <App />
+            </Route>
           </Switch>
       </BrowserRouter>,
   document.getElementById('root'),
